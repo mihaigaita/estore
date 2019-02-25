@@ -1,4 +1,5 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 ## Small items To Do:
@@ -27,8 +28,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 1. Add a loading spinner (hardcode to 2s)
 1. Integrate a 3rd party Map API to choose user's location
 1. Deploy app on a public server
-..+ https://facebook.github.io/create-react-app/docs/deployment
-..+ Add environment files -- see docs above
+..* https://facebook.github.io/create-react-app/docs/deployment
+..* Add environment files -- see docs above
 1. Eject from CRA and Configure Webpack 
 1. Upgrade to TypeScript
 1. Add a notification display component with internal stack (if you have 3 requests outstanding, you need to wait for all of them to end before hiding the loading spinner).
@@ -47,9 +48,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 1. Add Footer with links and Social Media Buttons
 1. Refactor Code 1
 1. Add more Redux middleware 
-..+ Analytics Middleware https://rangle.gitbook.io/redux-beacon/getting-started-redux-users
-..+ Offline queue Middleware https://github.com/mathieudutour/redux-queue-offline
-..+ Something like https://github.com/joshwcomeau/redux-vcr
+..* Analytics Middleware https://rangle.gitbook.io/redux-beacon/getting-started-redux-users
+..* Offline queue Middleware https://github.com/mathieudutour/redux-queue-offline
+..* Something like https://github.com/joshwcomeau/redux-vcr
 1. Configure NodeJS/Express backend HTTP headers
 1. Add HTTP2 server and other middleware to Express
 1. Put the backend into AWS Serverless + S3
