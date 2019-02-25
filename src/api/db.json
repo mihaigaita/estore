@@ -1,0 +1,82 @@
+{
+  "productsHashById": {
+    "qwe2": {
+      "title": "Product Title 1",
+      "ratingInStars": 2,
+      "price": 20,
+      "imageURL": "media/fundal_slice1_505x.png",
+      "imageAlt": "description"
+    },
+    "fssd": {
+      "title": "Product Title 2",
+      "ratingInStars": 4,
+      "price": 18,
+      "imageURL": "media/fundal_slice1_505x.png",
+      "imageAlt": "description"
+    },
+    "dgr3": {
+      "title": "Product Title 3",
+      "ratingInStars": 5,
+      "price": 10,
+      "imageURL": "media/fundal_slice1_505x.png",
+      "imageAlt": "description"
+    },
+    "ddg3": {
+      "title": "Product Title 4",
+      "ratingInStars": 3,
+      "price": 15,
+      "imageURL": "media/fundal_slice1_505x.png",
+      "imageAlt": "description"
+    },
+    "pppm": {
+      "title": "Product Title 5",
+      "ratingInStars": 5,
+      "price": 35,
+      "imageURL": "media/fundal_slice1_505x.png",
+      "imageAlt": "description"
+    }
+  },
+  "tagsLookup": {
+    "mapTagsToProducts": {
+      "2rw1": {
+        "name": "Category 1",
+        "productIdList": [
+          "qwe2",
+          "fssd",
+          "dgr3"
+        ]
+      },
+      "qeee": {
+        "name": "Category 2",
+        "productIdList": [
+          "qwe2",
+          "ddg3"
+        ]
+      },
+      "zzzz": {
+        "name": "Category 3",
+        "productIdList": [
+          "pppm",
+          "qwe2",
+          "ddg3"
+        ]
+      }
+    },
+    "mapProductsToTags": {
+      "qwe2": ["2rw1", "qeee", "zzzz"],
+      "fssd": ["2rw1"],
+      "dgr3": ["2rw1"],
+      "ddg3": ["qeee", "zzzz"]
+    }
+  },
+  "productsInCart": [
+    {
+      "productId": "qwe2",
+      "quantity": 3
+    }
+  ],
+  "appState": {
+    "loadingAnimation": false,
+    "notificationContent": ""
+  }
+}

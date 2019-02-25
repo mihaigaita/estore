@@ -1,0 +1,45 @@
+.productOutline {
+  flex-shrink: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  text-decoration-line: none;
+  color: black;
+  position: relative;
+  border-bottom: 2px solid #fffa;
+  margin: 0 5px;
+}
+
+.thumbnail {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.removeButton {
+  color: #000;
+  background-color: #fff0;
+  border:none;
+  position: absolute;
+  top: -5px;
+  right: 0px;
+  font-size: 3em;
+}
+
+.removeButton:hover {
+  color: rgb(134, 134, 134);
+}
+
+.removeButton:focus {
+  outline: none;
+}
+
+.image {
+  width: 100%;
+}
+
+.title {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: rgb(82, 82, 82);
+}

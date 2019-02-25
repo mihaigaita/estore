@@ -1,0 +1,16 @@
+.ratingContainer {
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+  border: 2px solid #2e2e2e;
+  border-radius: 3px;
+  padding: 0 2px;
+}
+
+.star {
+  color: #2e2e2e;
+  font-size: 1.4em;
+  line-height: 1em;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+}
