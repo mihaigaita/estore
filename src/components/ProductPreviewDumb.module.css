@@ -3,12 +3,12 @@
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  padding: 5px;
+  padding: 0.5rem;
   text-decoration-line: none;
   color: black;
   position: relative;
   border-bottom: 2px solid #fffa;
-  margin: 0 5px;
+  margin: 0 0.5rem;
 }
 
 .thumbnail {
@@ -21,9 +21,9 @@
   background-color: #fff0;
   border:none;
   position: absolute;
-  top: -5px;
+  top: -0.5rem;
   right: 0px;
-  font-size: 3em;
+  font-size: 5rem;
 }
 
 .removeButton:hover {
@@ -39,7 +39,7 @@
 }
 
 .title {
-  font-size: 1.2em;
+  font-size: 1.8rem;
   font-weight: bold;
   color: rgb(82, 82, 82);
 }

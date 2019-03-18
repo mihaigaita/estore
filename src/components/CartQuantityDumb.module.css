@@ -1,26 +1,26 @@
 .quantityContainer {
-  margin: 10px 0;
+  margin: 1.6rem 0;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .minusButton {
-  font-size: 1.2em;
+  font-size: 1.8rem;
 }
 
 .plusButton {
-  font-size: 1.2em;
+  font-size: 1.8rem;
 }
 
 .inputQuantity {
-  width: 1.5em;
+  width: 2.4rem;
   text-align: center;
-  font-size: 1.2em;
+  font-size: 1.8rem;
 }
 
 .price {
-  font-size: 1.2em;
-  margin-left: 5px;
+  font-size: 1.8rem;
+  margin-left: 0.8rem;
   vertical-align: middle;
 }

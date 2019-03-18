@@ -4,7 +4,7 @@
 }
 
 .side {
-  width: 250px;
+  width: 25rem;
   flex-shrink: 0;
   border: 2px solid black;
 }

@@ -1,5 +1,5 @@
 .productsContainer {
-  margin: 15px;
+  margin: 1.5rem;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -18,14 +18,14 @@
   align-items: flex-start;
   justify-content: space-between;
   border-bottom: 3px solid #4d4d4d;
-  margin: 15px;
+  margin: 1.5rem;
 }
 
 .groupTitle {
   background-color: #4d4d4d;
   color: rgb(204, 204, 204);
-  font-size: 1.5em;
-  padding: 3px 10px 0 10px;
+  font-size: 2.2rem;
+  padding: 0.3rem 1rem;
   border-radius: 4px 4px 0 0;
   text-align: left;
 }

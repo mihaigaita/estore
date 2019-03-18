@@ -10,9 +10,9 @@
 }
 
 .title {
-  padding: 20px;
+  padding: 1.8rem;
   margin: 0 auto;
-  font-size: 2em;
+  font-size: 2.4rem;
 }
 
 .productList {
@@ -20,12 +20,11 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  margin-top: 10px;
 }
 
 .priceTotal {
-  font-size: 1.2em;
-  margin: 5px;
-  padding: 5px 0;
+  font-size: 1.8rem;
+  margin: 0.5rem;
+  padding: 0.5rem 0;
   border-bottom: 2px solid #fff8;
 }
