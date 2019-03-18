@@ -1,15 +1,17 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './RatingDumb.module.css'
-import {range} from '../other/helpers';
+import {rangeGenerator} from '../other/helpers';
 
 function RatingDumb({
     starCount = 0
   }) {
+  let rangeFull = [...rangeGenerator(starCount)];
+  let rangeEmpty = [...rangeGenerator(5 - starCount)];
   return (
     <div className = {styles.ratingContainer}>
       { // Draw full stars
-        range(starCount).map(index => {
+        rangeFull.map(index => {
         return (
           <div 
             className = {styles.star}
@@ -21,7 +23,7 @@ function RatingDumb({
       })}
 
       { // Draw empty stars
-        range(5 - starCount).map(index => {
+        rangeEmpty.map(index => {
         return (
           <div 
             className = {styles.star}
