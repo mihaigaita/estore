@@ -1,5 +1,7 @@
-export function range(size, startAt = 0, step = 1) {
-  return [...Array(size).keys()].map(i => i * step + startAt);
+export function* rangeGenerator(stop, startAt = 0, step = 1) {
+  for (let i = startAt; i < stop; i += step) {
+    yield i;
+  }
 }
 
 export function enumListToObject(list = []) { 
